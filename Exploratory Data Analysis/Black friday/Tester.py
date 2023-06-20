@@ -4,4 +4,4 @@ def cat_2_num(df):
     label_encoder = preprocessing.LabelEncoder()
     for features in categorical_features:
         df[features]= label_encoder.fit_transform(df[features])
-    return df
+    return df 
