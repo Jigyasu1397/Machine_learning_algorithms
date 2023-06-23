@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import logging as logger
 
-from Tester import *
+from Cat_2_num import *
 from Dataset import *
 from Missingval import *
 
@@ -20,3 +20,4 @@ df_cat = cat_2_num(df)
 # Handling missing values
 data_mean_fillna1 = missing_val(df_cat)
 logger.debug("Harmless debug Message")
+print("It is reading")
